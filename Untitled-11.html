@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>夜场展示网站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            text-align: center; /* 将所有文本居中对齐 */
+        }
+        header, nav, main, footer {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        header img {
+            width: 150px;
+        }
+        .club {
+            margin-bottom: 50px;
+        }
+        .club h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .photo-slider {
+            display: flex;
+            justify-content: center;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            gap: 10px;
+        }
+        .photo-slider img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            scroll-snap-align: center;
+        }
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .buttons a {
+            margin: 10px 0;
+        }
+        .buttons img {
+            width: 200px; /* 可根据需要调整按钮大小 */
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            margin-top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="llogo.jpg" alt="Logo">
+    </header>
+    <main>
+        <section class="club">
+            <p>Club 1 是一个高端夜场，提供最顶级的娱乐体验。从现场音乐到精美的饮品，我们确保每一位客人都能享受到极致的夜生活。</p>
+            <h2>404 Club</h2>
+            <div class="photo-slider">
+                <img src="404-1.jpg" alt="Club 1 Photo 1">
+                <img src="404-2.jpg" alt="Club 1 Photo 2">
+                <img src="404-3.jpg" alt="Club 1 Photo 3">
+            </div>
+            <p>Club 1 是一个高端夜场，提供最顶级的娱乐体验。从现场音乐到精美的饮品，我们确保每一位客人都能享受到极致的夜生活。</p>
+            <div class="buttons">
+                <a href="https://wa.me/0123342187">
+                    <img src="1234.jpg" alt="WhatsApp">
+                </a>
+            </div>
+        </section>
+        <section class="club">
+            <h2>Dragon Fly Club</h2>
+            <div class="photo-slider">
+                <img src="DF-1.jpg" alt="Club 2 Photo 1">
+                <img src="DF-2.jpg" alt="Club 2 Photo 2">
+                <img src="DF-3.jpg" alt="Club 2 Photo 3">
+            </div>
+            <p>Club 1 是一个高端夜场，提供最顶级的娱乐体验。从现场音乐到精美的饮品，我们确保每一位客人都能享受到极致的夜生活。</p>
+            <div class="buttons">
+                <a href="https://wa.me/0123342187">
+                    <img src="1234.jpg" alt="WhatsApp">
+            </a>
+            </div>
+        </section>
+        <section class="events">
+            <h2>即将举行的活动</h2>
+            <p>在这里展示即将举行的活动信息...</p>
+        </section>
+    </main>
+    <footer>
+        <div class="buttons">
+            <a href="https://wa.me/0123342187">
+                <img src="join us.jpg" alt="recruitment_page">
+            </a>
+            <a href="https://wa.me/0123342187">
+                <img src="colab.jpg" alt="details_page">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
